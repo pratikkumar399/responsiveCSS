@@ -1,0 +1,15 @@
+body {
+    /* give a min-height to stretch the screen to its full height. This stops ovrflow of the content if any */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 80ch;
+}
